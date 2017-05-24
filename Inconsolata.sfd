@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1495638711
+ModificationTime: 1495639143
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -193,35 +193,34 @@ EndChar
 
 StartChar: exclam_equal_equal.liga
 Encoding: 263 -1 4
-Width: 1000
-Flags: W
-HStem: 166 72<6 376 505 994> 370 72<6 489 618 994>
+Width: 1500
+Flags: WO
+HStem: 166 72<256 626 755 1244> 370 72<256 739 868 1244>
 LayerCount: 2
 Fore
 SplineSet
-994 370 m 1
- 575 370 l 1
- 505 238 l 1
- 994 238 l 1
- 994 166 l 1
- 462 166 l 1
- 342 -36 l 1
- 275 -2 l 1
- 376 166 l 1
- 6 166 l 1
- 6 238 l 1
- 419 238 l 1
- 489 370 l 1
- 6 370 l 1
- 6 442 l 1
- 533 442 l 1
- 660 655 l 1
- 725 622 l 1
- 618 442 l 1
- 994 442 l 1
- 994 370 l 1
+1244 370 m 1
+ 825 370 l 1
+ 755 238 l 1
+ 1244 238 l 1
+ 1244 166 l 1
+ 712 166 l 1
+ 592 -36 l 1
+ 525 -2 l 1
+ 626 166 l 1
+ 256 166 l 1
+ 256 238 l 1
+ 669 238 l 1
+ 739 370 l 1
+ 256 370 l 1
+ 256 442 l 1
+ 783 442 l 1
+ 910 655 l 1
+ 975 622 l 1
+ 868 442 l 1
+ 1244 442 l 1
+ 1244 370 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution-1" exclam equal equal
 EndChar
@@ -302,7 +301,7 @@ EndChar
 StartChar: equal_equal_equal.liga
 Encoding: 270 -1 8
 Width: 1360
-Flags: WO
+Flags: W
 HStem: 167 72<186 1174> 370 72<186 1174>
 LayerCount: 2
 Fore
@@ -318,6 +317,7 @@ SplineSet
  186 239 l 5
  1174 239 l 5
 EndSplineSet
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution-1" equal equal equal
 EndChar
