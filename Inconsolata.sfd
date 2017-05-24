@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1161020814
-ModificationTime: 1495639208
+ModificationTime: 1495640624
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -68,7 +68,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 33 10
+WinInfo: 33 33 10
 BeginPrivate: 7
 BlueValues 31 [-12 0 457 467 623 630 665 669]
 OtherBlues 11 [-172 -167]
@@ -277,7 +277,7 @@ EndChar
 StartChar: bar_bar.liga
 Encoding: 268 -1 7
 Width: 1000
-Flags: WO
+Flags: W
 VStem: 282.5 75<-102 807> 642.5 75<-102 807>
 LayerCount: 2
 Fore
@@ -299,24 +299,23 @@ EndChar
 
 StartChar: equal_equal_equal.liga
 Encoding: 270 -1 8
-Width: 1360
-Flags: W
-HStem: 167 72<186 1174> 370 72<186 1174>
+Width: 1500
+Flags: WO
+HStem: 167 72<190 1310> 370 72<190 1310>
 LayerCount: 2
 Fore
 SplineSet
-1174 442 m 5
- 1174 370 l 5
- 186 370 l 5
- 186 442 l 5
- 1174 442 l 5
-1174 239 m 5
- 1174 167 l 5
- 186 167 l 5
- 186 239 l 5
- 1174 239 l 5
+1310 442 m 1
+ 1310 370 l 1
+ 190 370 l 1
+ 190 442 l 1
+ 1310 442 l 1
+1310 239 m 1
+ 1310 167 l 1
+ 190 167 l 1
+ 190 239 l 1
+ 1310 239 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution-1" equal equal equal
 EndChar
@@ -405,7 +404,7 @@ SplineSet
  215.90625 -171 l 1
  215.90625 669.688476562 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution-1" bracketleft bracketright
 EndChar
@@ -926,7 +925,7 @@ SplineSet
  236.6171875 75.814453125 261.267578125 102.63671875 294.178710938 102.63671875 c 4
  329.747070312 102.63671875 363.633789062 70.880859375 363.633789062 19.70703125 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: hyphen
